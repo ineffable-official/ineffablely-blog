@@ -22,6 +22,9 @@
           </g>
         </g>
       </svg></a>
+      <div class="btn ms-auto">
+        <i class="fa-regular fa-search"></i>
+      </div>
     <div class="menu-mobile-btn">
       <span></span>
       <span></span>
