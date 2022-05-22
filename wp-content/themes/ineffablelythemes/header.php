@@ -11,4 +11,6 @@
 
 <body>
 
-    <?php get_template_part('template-parts/navbar/navbar');
+    <?php get_template_part('template-parts/navbar'); ?>
+
+    <?php get_template_part('template-parts/search-modal') ?>
