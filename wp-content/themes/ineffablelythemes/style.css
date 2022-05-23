@@ -176,6 +176,20 @@ footer .copyright {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .search-modal{
+    display: none;
+  }
+
+  .menu-mobile-btn{
+    display: none;
+  }
+
+  #search-btn{
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .menu-modal {
     width: 100%;
