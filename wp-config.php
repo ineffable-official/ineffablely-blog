@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '9kb8ougdhhqpnwm9t2nht4yvuox7pzqujlxk8tq8ivwlthx2tq34mt2bu0v2jcx9' );
-define( 'SECURE_AUTH_KEY',  'aa8qbx3ztj91em3xtr3bbpa3igbvdileqqixjlpethvy7h3kdgzne8jxkafiiapj' );
-define( 'LOGGED_IN_KEY',    'jpv7lo2i9aqpuenrfiezkfracxwvusgxipdybhu3war1jaanyqhjuexekaknkjh8' );
-define( 'NONCE_KEY',        't35a4ovy5zdyyzeksnv57bpqxdguws8wkjnofuhzviklgvbwsfobnjj6perliyue' );
-define( 'AUTH_SALT',        'wuh4xpmi3eveadhnr9wskitv8krzihzbkt1jwbxpnyyf1afyfmrjpjgs5gxvzgrn' );
-define( 'SECURE_AUTH_SALT', '52pxteb2jrxyjbatafdihz4jtb6kqx2ilvkumm0lzpmsxmq4qxkjmyajpiz2z6g9' );
-define( 'LOGGED_IN_SALT',   'fkftvtrxsmf02tyshgpxfoocrjfqet51on4nklegnj0qz5ffucreabl0yfl68igc' );
-define( 'NONCE_SALT',       'njsdilkurwqjwhrihlis4jvffnuichc91hhd7wiy4lb16cfb4znuzovrbrxu6csc' );
+define( 'AUTH_KEY',         '0saeco6n7l3u9rkfasqrisfdhh0gyv9xctalnix7qd46y8p1tbvszpvop6bvsmol' );
+define( 'SECURE_AUTH_KEY',  'g7d3rpjur6la3nvbfxkvr4zuvkesnbhlw7so2jyxcozm8hnipzfhz0tjmnktyxgz' );
+define( 'LOGGED_IN_KEY',    'x6wdijjvmnyl29j2x85jhtizyp29doxhlzsd5wzvs4lghrsujvslwajk1sazc4e4' );
+define( 'NONCE_KEY',        '43l1nre80udduqluqk5inzlkf6ss2jju1zno1slahidgwugoa9kzsnxeph3xvkjp' );
+define( 'AUTH_SALT',        'gcojlguvadnkcqfr02eucfkhegu13aijimt2hg2shyjjxxb3xwedatrmze6pv4wj' );
+define( 'SECURE_AUTH_SALT', 'rlkunsg3tcqfrdefmzvrs9f5smzxc6sdvdoewm9ijframbtlsoxzioub7ql5obhf' );
+define( 'LOGGED_IN_SALT',   'nzwj4ar03t0epjlf2iacvjk4uz47ep2ooofaxr6jnk06bzxdokuttvnezrnxxbpt' );
+define( 'NONCE_SALT',       'd0wkripxscj9oppalkx37ekba4ehaod8gx1ptjzkzonzy2spjofvn0xhbd9mvyev' );
 
 /**#@-*/
 
@@ -65,7 +65,7 @@ define( 'NONCE_SALT',       'njsdilkurwqjwhrihlis4jvffnuichc91hhd7wiy4lb16cfb4zn
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wpbe_';
+$table_prefix = 'wpxu_';
 
 /**
  * For developers: WordPress debugging mode.
