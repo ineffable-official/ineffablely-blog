@@ -1,0 +1,11 @@
+[23-May-2022 11:34:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/xwswipkj/blog.ineffablely.site/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/xwswipkj/blog.ineffablely.site/wp-includes/PHPMailer/PHPMailer.php(1923): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/xwswipkj/blog.ineffablely.site/wp-includes/PHPMailer/PHPMailer.php(1657): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/xwswipkj/blog.ineffablely.site/wp-includes/PHPMailer/PHPMailer.php(1493): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/xwswipkj/blog.ineffablely.site/wp-includes/pluggable.php(544): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/xwswipkj/blog.ineffablely.site/wp-admin/includes/upgrade.php(624): wp_mail()
+#5 /home/xwswipkj/blog.ineffablely.site/wp-admin/includes/upgrade.php(117): wp_new_blog_notification()
+#6 /home/xwswipkj/blog.ineffablely.site/wp-admin/install.php(414): wp_install()
+#7 {main}
+  thrown in /home/xwswipkj/blog.ineffablely.site/wp-includes/PHPMailer/PHPMailer.php on line 874
