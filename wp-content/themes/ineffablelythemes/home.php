@@ -3,7 +3,7 @@
 get_header();
 ?>
 
-<div class="main-area mt-2">
+<div class="main-area mt-4">
   <div class="container">
     <div class="slider-container">
       <div class="slides">
@@ -17,10 +17,10 @@ get_header();
                 <img src="<?php the_post_thumbnail_url() ?>" alt="">
               </div>
               <div class="post-details">
-                <div class="text-bold"><?php the_title() ?></div>
+                <a href="<?php the_permalink() ?>" class="text-bold"><?php the_title() ?></a>
                 <div class="d-flex">
                   <div class="text-small">
-                    <?php the_date() ?>
+                    <?php echo meks_time_ago() ?>
                   </div>
                   <div class="text-small"><?php the_author() ?></div>
                 </div>
@@ -32,11 +32,23 @@ get_header();
       </div>
       <div class="slide-controls">
         <button id="prev-btn">
-          <i class="fa-regular fa-chevron-left"></i>
+          <i class="fa-solid fa-chevron-left"></i>
         </button>
         <button id="next-btn">
-          <i class="fa-regular fa-chevron-right"></i>
+          <i class="fa-solid fa-chevron-right"></i>
         </button>
+      </div>
+    </div>
+    <div class="content-area mt-2">
+      <div class="d-flex flex-column">
+        <?php
+        $query2 = new WP_Query(array('offset' => '5'));
+        if ($query2->have_posts()) :
+          while ($query2->have_posts()) : $query2->the_post();
+            get_template_part('template-parts/post-card-long');
+          endwhile;
+        endif;
+        ?>
       </div>
     </div>
   </div>

@@ -45,8 +45,6 @@ const slideWidth = slides[index].clientWidth;
 
 slide.style.transform = `translateX(${-slideWidth * index}px)`;
 
-console.log(slides);
-
 const startSlide = () => {
   slideId = setInterval(() => {
     moveToNextSlide();
@@ -94,3 +92,16 @@ nextBtn.addEventListener("click", moveToNextSlide);
 prevBtn.addEventListener("click", moveToPreviousSlide);
 
 startSlide();
+
+function showMenu() {
+  var menuBtn = document.getElementById("menu-btn");
+  var menuModal = document.getElementById("menu-modal");
+
+  if (hasActiveClass(menuModal)) {
+    menuModal.classList.remove("active");
+    menuBtn.classList.remove("active");
+  } else {
+    menuModal.classList.add("active");
+    menuBtn.classList.add("active");
+  }
+}

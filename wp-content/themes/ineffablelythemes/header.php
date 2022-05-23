@@ -13,4 +13,5 @@
 
     <?php get_template_part('template-parts/navbar'); ?>
 
+    <?php get_template_part('template-parts/menu-modal') ?>
     <?php get_template_part('template-parts/search-modal') ?>

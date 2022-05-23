@@ -1,6 +1,6 @@
 <nav class="navbar">
   <div class="container">
-    <div class="menu-mobile-btn">
+    <div class="menu-mobile-btn" id="menu-btn" onclick="showMenu()">
       <span></span>
       <span></span>
       <span></span>
@@ -13,7 +13,7 @@
       </svg>
     </a>
     <div class="btn ms-auto" id="search-btn" onclick="showSearchModal()">
-      <i class="fa-regular fa-search"></i>
+      <i class="fa-solid fa-search"></i>
     </div>
 
   </div>
