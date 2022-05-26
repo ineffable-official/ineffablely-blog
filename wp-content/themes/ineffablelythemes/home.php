@@ -26,8 +26,11 @@ get_header();
                 </div>
               </div>
             </div>
-        <?php
+          <?php
           endwhile;
+        else : ?>
+          <p><?php esc_html_e('Maaf post tidak ditemukan'); ?></p>
+        <?php
         endif; ?>
       </div>
       <div class="slide-controls">
