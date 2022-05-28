@@ -449,6 +449,10 @@ footer .copyright {
 }
 
 @media (max-width: 576px) {
+  .navbar .nav,
+  .navbar .search-form {
+    display: none;
+  }
   .menu-modal {
     width: 100%;
     height: 100%;
@@ -594,7 +598,35 @@ footer .copyright {
     width: 100%;
   }
 
+  .post-card-long {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .post-card-long:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .post-card-long .thumbnail {
+    width: 100px;
+    height: auto;
+  }
+  .post-card-long .thumbnail img {
+    width: 100px;
+    height: auto;
+  }
+  .post-card-long .details {
+    width: calc(100% - 100px);
+    padding: 8px;
+  }
+
   .post-card-long .details .text-bold {
+    font-size: 1rem;
     text-decoration: none;
   }
   .post-card-long .details .text-normal {
