@@ -106,8 +106,8 @@ body {
 }
 
 .main-area {
-  margin-bottom: 64px;
-  margin-top: 64px;
+  margin-bottom: 90px;
+  margin-top: 90px;
 }
 
 .main-area .container {
@@ -288,18 +288,150 @@ footer .copyright {
   padding: 8px;
 }
 
+.content-post {
+  width: 60%;
+}
+
+.header-post {
+  width: 100%;
+}
+
 .header-post .title-post {
   font-size: 3rem;
   font-weight: 600;
 }
 
-.header-post .text-normal a{
+.header-post .text-normal a {
   color: black;
   text-decoration: none;
 }
 
-.header-post .text-normal a:hover{
+.header-post .text-normal a:hover {
   color: gray;
+}
+
+.header-post {
+  text-align: center;
+}
+
+.content-post .thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.content-post .thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.comment-container {
+  width: 100%;
+  height: auto;
+}
+
+.comment {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.comment .comment-content {
+  padding: 16px;
+}
+
+.comment .comment-detail {
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.comment .avatar {
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment .avatar img {
+  width: 32px;
+  height: 32px;
+}
+
+.comment .button {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment .button a {
+  color: gray;
+}
+
+.comment .button a:hover {
+  color: black;
+}
+
+.comment-form-comment textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  box-shadow: none;
+  padding: 16px;
+}
+
+.comment-form-comment textarea:focus {
+  border-color: gray;
+}
+
+.comment-respond {
+  margin-top: 64px;
+}
+
+.comment-respond input[type="text"] {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  box-shadow: none;
+  padding: 0px 16px;
+}
+
+.comment-respond input[type="text"]:focus {
+  border-color: gray;
+}
+
+.comment-form-cookies-consent {
+  display: flex;
+}
+
+.comment-form-cookies-consent input {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 16px;
+}
+
+.comment-respond .submit {
+  width: 350px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.comment-respond .submit:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
 }
 
 @media (min-width: 768px) {

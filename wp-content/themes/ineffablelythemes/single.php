@@ -9,11 +9,13 @@ get_header();
             while (have_posts()) : the_post();
                 get_template_part('template-parts/post');
             endwhile;
+
         else : ?>
             <p><?php esc_html_e('Maaf post tidak ditemukan'); ?></p>
         <?php
         endif;
         ?>
+
     </div>
 </div>
 

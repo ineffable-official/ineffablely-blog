@@ -33,9 +33,16 @@ get_header();
       <div class="header-content">Latest</div>
       <div class="d-flex flex-column">
         <?php
-        $query = new WP_Query(array('offset' => '5', 'posts_per_page' => 3));
-        if ($query->have_posts()) :
-          while ($query->have_posts()) : $query->the_post();
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+        $args = array(
+          'posts_per_page' => 5,
+          'paged'          => $paged,
+          'offset' => 5
+        );
+
+        $the_query = new WP_Query($args);
+        if ($the_query->have_posts()) :
+          while ($the_query->have_posts()) : $the_query->the_post();
             get_template_part('template-parts/post-card-long');
 
           endwhile;
