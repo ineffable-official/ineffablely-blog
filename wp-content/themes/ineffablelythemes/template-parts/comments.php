@@ -83,7 +83,7 @@
         );
         foreach ($comment_children->get_children($args) as $children) : ?>
             <div class="comment-container">
-                <div class="comment" style="margin-left: 64px;">
+                <div class="comment" style="margin-left: 32px;">
                     <div class="comment-content">
                         <div class="text-normal"><a class="me-2" href="mailto:<?php echo comment_author_email($comment_children->comment_ID); ?>"><?php echo comment_author_email($comment_children->comment_ID); ?></a><?php echo $children->comment_content ?></div>
                     </div>
