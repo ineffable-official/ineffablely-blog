@@ -452,6 +452,11 @@ footer .copyright {
   .comment {
     width: auto;
   }
+
+  .comment-respond .submit {
+    width: 100%;
+  }
+
   .navbar .nav,
   .navbar .search-form {
     display: none;
