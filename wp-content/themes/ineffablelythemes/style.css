@@ -449,7 +449,7 @@ footer .copyright {
 }
 
 @media (max-width: 576px) {
-  .comment{
+  .comment {
     width: auto;
   }
   .navbar .nav,
@@ -458,11 +458,11 @@ footer .copyright {
   }
 
   .content-post {
-    width: 100%;
+    width: 100% !important;
     padding: 0px 16px;
   }
 
-  .search-form{
+  .search-form {
     width: 100%;
   }
 
