@@ -216,12 +216,12 @@ body {
 
 .post-details .text-bold {
   text-decoration: none;
-  color: rgba(200, 200, 200, 1);
+  color: rgb(85, 85, 85);
 }
 
 .post-details .text-small {
   margin-right: 8px;
-  color: rgb(221, 221, 221);
+  color: rgb(153, 153, 153);
 }
 
 footer {
@@ -283,9 +283,11 @@ footer .copyright {
   width: 100%;
   height: auto;
   font-size: 1.2rem;
-  background-color: black;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.027);
+  color: rgb(0, 0, 0);
   padding: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .content-post {
@@ -340,12 +342,13 @@ footer .copyright {
 
 .comment .comment-content {
   padding: 16px;
+  font-size: 0.9rem;
 }
 
 .comment .comment-detail {
   width: 100%;
   height: auto;
-  padding: 16px;
+  padding: 4px 16px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 

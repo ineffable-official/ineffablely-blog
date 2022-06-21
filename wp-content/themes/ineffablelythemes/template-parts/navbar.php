@@ -5,7 +5,7 @@
       <span></span>
       <span></span>
     </div>
-    <a href="/" class="logo-brand">
+    <a href="<?php bloginfo('url') ?>" class="logo-brand">
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508 482">
         <rect width="90" height="482" />
